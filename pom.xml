@@ -14,7 +14,7 @@
   <version>1.0</version>
   <packaging>jar</packaging>
   <name>Cucumber-Hisse senedi ornegi v2</name>
-  <artifactId>ikinci-ornek</artifactId>
+  <artifactId>BDD-S-03</artifactId>
 
     <properties>
         <cucumber.version>1.2.0</cucumber.version>

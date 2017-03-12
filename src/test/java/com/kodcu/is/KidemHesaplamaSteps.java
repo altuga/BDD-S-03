@@ -49,6 +49,17 @@ public class KidemHesaplamaSteps {
 
     }
 
+    @Eğerki("^küsürat (\\d+) aydan az ise$")
+    public void küsüratAydanAzIse(int arg1) throws Throwable {
+        System.out.println(" küsüratAydanAzIse  " + arg1);
+    }
+
+    @Eğerki("^küsürat (\\d+) aydan fazla ise$")
+    public void küsüratAydanFazlaIse(int arg1) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        System.out.println(" küsüratAydanFazlaIse  " + arg1);
+    }
+
     @Ozaman("^çalışanın brüt ihbar, gelir vergisis, damga vergisi, net ihbar tutar bilgisi$")
     public void çalışanınBrütIhbarGelirVergisisDamgaVergisiNetIhbarTutarBilgisi(DataTable dataTable) throws Throwable {
 
